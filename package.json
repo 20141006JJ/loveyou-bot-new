@@ -1,24 +1,12 @@
 {
-  "name": "my-discord-bot2",
+  "name": "loveyou-bot",
   "version": "1.0.0",
-  "description": "My Bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/20141006JJ/my-discord-bot2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/20141006JJ/my-discord-bot2/issues"
-  },
-  "homepage": "https://github.com/20141006JJ/my-discord-bot2#readme",
   "dependencies": {
-    "discord.js": "^14.26.4"
+    "discord.js": "^14.14.1",
+    "express": "^4.19.2"
   }
 }

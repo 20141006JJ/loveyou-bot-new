@@ -1,3 +1,14 @@
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('機器人活著喔！');
+});
+
+app.listen(port, () => {
+  console.log(`網站伺服器正運行在 port ${port}`);
+});
 const { 
     Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder, 
     ButtonStyle, ChannelType, PermissionFlagsBits, REST, Routes, SlashCommandBuilder 
